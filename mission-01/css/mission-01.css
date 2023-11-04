@@ -12,6 +12,7 @@ body *::after {
 
 body{
   color: #f5f5f5;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 /* 상품 */
@@ -25,7 +26,6 @@ body{
 }
 
 .product-main {
-  position: relative;
   display: flow-root;
   padding: 20px 28px 20px 28px;
 }
@@ -44,7 +44,6 @@ body{
   margin-top: 13px;
   color: #4e4e4e;
   text-align: center;
-  font-family: 'Noto Sans KR', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -69,7 +68,6 @@ body{
 .product-sub h2 {
   margin-top: 0;
   color: #555;
-  font-family: 'Noto Sans KR', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
