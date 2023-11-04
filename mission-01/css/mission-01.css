@@ -1,0 +1,85 @@
+:root {
+  --base-width: 502px;
+}
+
+/* 기본 스타일 */
+body,
+body *,
+body *::before,
+body *::after {
+  box-sizing: border-box;
+}
+
+body{
+  color: #f5f5f5;
+}
+
+/* 상품 */
+.product {
+  width: var(--base-width);
+  margin: 0 auto;
+}
+
+.product-main, .product-sub-left, .product-sub-right {
+  border: 1px solid #c4c4c4
+}
+
+.product-main {
+  position: relative;
+  display: flow-root;
+  padding: 20px 28px 20px 28px;
+}
+
+.product-main-wrap{
+  float: left;
+}
+
+.product-main-wrap img {
+  padding-top: 70px;
+  padding-left: 45px;
+}
+
+.product-main-wrap h1 {
+  width: 200px;
+  margin-top: 13px;
+  color: #4e4e4e;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.product-main-img {
+  float: right;
+}
+
+.product-sub {
+  display: flow-root;
+  margin-top: 20px;
+}
+
+.product-sub-right, .product-sub-left {
+  padding: 14px 25px 14px 23px;
+  width: 243px;
+  text-align: center;
+}
+
+.product-sub h2 {
+  margin-top: 0;
+  color: #555;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  }
+
+.product-sub-left {
+  float: left;
+}
+
+.product-sub-right{
+  float: right;
+}
