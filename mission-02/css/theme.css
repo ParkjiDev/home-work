@@ -1,0 +1,13 @@
+:root {
+
+  /* font-weight */
+  --font-thin: 200;
+  --font-regular: 300;
+  --font-bold: 700;
+
+  /* color */
+  --grayscale-white: #fefefe;
+  --accent-amber: #d2c9b6;
+  --grayscale-snow: #f5f5f5;
+  --primary-blue: #24388d;
+}

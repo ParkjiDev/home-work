@@ -1,0 +1,95 @@
+:root {
+  --base-width: 502px;
+}
+
+/* 기본 스타일 */
+body,
+body *,
+body *::before,
+body *::after {
+  box-sizing: border-box;
+}
+
+body{
+  color: #f5f5f5;
+}
+
+/* 상품 */
+.product {
+  width: var(--base-width);
+  margin: 0 auto;
+}
+
+.product-main, .product-sub-left, .product-sub-right {
+  border: 1px solid #c4c4c4;
+}
+
+.product-main {
+  /* position: relative; */
+  background: salmon;
+  padding: 20px 28px;
+  display: flow-root;
+}
+
+.product-main > img {
+  margin-left: 25px;
+}
+.product-main-desc {
+  padding-top: 55px;
+  margin-right: 24px;
+  text-align: center;
+  float: left;
+}
+.product-main-img {
+  float: right;
+}
+.product-main-img img {
+  top: 20px;
+  right: 28px;
+}
+
+.product-main h1 {
+  margin-top: 13px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #4E4E4E;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.product-sub {
+  display: flow-root;
+  background: lime;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.product-sub-left{
+  float: left;
+}
+
+.product-sub-right {
+  float: right;
+}
+.product-sub-left, .product-sub-right {
+  /* position: relative; */
+  padding: 14px 25px 14px 23px;
+  width: 245px;
+  color: var(--grayscale-gray-5, #555);
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.product-sub-left h2, .product-sub-right h2 {
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+
+.product-sub img {
+  border: 1px solid black;
+  float: left;
+}

@@ -28,6 +28,12 @@ body{
 .product-main {
   display: flow-root;
   padding: 20px 28px 20px 28px;
+  position: relative;
+}
+
+.product-main img[src*=button] {
+  position: absolute;
+  bottom: 0;
 }
 
 .product-main-wrap{

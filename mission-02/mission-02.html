@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDIYA COFFEE</title>
+    <link
+      href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./css/theme.css" />
+    <link rel="stylesheet" href="./css/mission-02.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="login-title-wrapper">
+        <h2 class="login-title">로그인</h2>
+        <span class="login-text-first">Welcome, Ediya Coffee</span>
+        <span class="login-text-second"
+          >이디야커피에 오신 것을 환영합니다.</span
+        >
+      </div>
+
+      <div class="login-form-div">
+        <form action="/" class="login-form" method="get">
+          <fieldset class="reset-box">
+            <legend>회원 로그인 폼</legend>
+            <div class="login-form-wrapper">
+              <div class="user-email is-normal">
+                <label for="userEmail">이메일</label>
+                <input
+                  type="email"
+                  id="userEmail"
+                  placeholder="yamoo9@euid.dev"
+                  required
+                  name="userEmail"
+                />
+                <img src="./images/checkmark.svg" alt="" class="checkmark" />
+                <img src="./images/warning.png" alt="" class="warning" />
+                <span class="user-email-warning"
+                  >이메일 입력 방법이 잘못되었습니다. (예: user@domain.io)</span
+                >
+              </div>
+              <div class="user-pwd is-normal">
+                <label for="userPwd">패스워드</label>
+                <input
+                  type="password"
+                  id="userPwd"
+                  placeholder="숫자, 영어 조합 6자 이상"
+                  required
+                  name="userPwd"
+                />
+                <img src="./images/warning.png" alt="" class="warning" />
+                <span class="user-pwd-warning"
+                  >패스워드는 숫자, 영어 조합 6자 이상 입력해야 합니다.</span
+                >
+              </div>
+              <div class="email-save">
+                <input type="checkbox" id="emailSave" name="emainSave" />
+                <label for="emailSave"><span>이메일 저장</span></label>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="login-button-wrapper">
+        <button class="login-button is-normal">
+          로그인
+          <img
+            src="./images/button-arrow-normal.png"
+            alt=""
+            class="login-button-arrow-normal"
+          />
+          <img
+            src="./images/button-arrow-disabled.png"
+            alt=""
+            class="login-button-arrow-disabled"
+          />
+        </button>
+        <button class="signup-button is-normal">
+          회원가입
+          <img
+            src="./images/button-arrow-signup.svg"
+            alt=""
+            class="login-button-arrow-signup"
+          />
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
