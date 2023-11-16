@@ -1,0 +1,94 @@
+.button-container {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 1.5rem;
+  padding: 4rem;
+}
+
+/* 로그인 버튼 */
+.login-button {
+  background: var(--red-500);
+  color: var(--white);
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.login-button-mobile {
+  width: 60px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: -0.006px;
+}
+
+.login-button-desktop {
+  width: 70px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.008px;
+}
+
+/* 30일 무료 이용 버튼 */
+.signup-button {
+  background: var(--red-500);
+  color: var(--white);
+  border: 0;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.signup-button-mobile {
+  width: 160px;
+  height: 40px;
+  padding: 1.15em 1.54em;
+  border-radius: 30px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.007px;
+}
+
+.signup-button-desktop {
+  width: 210px;
+  height: 60px;
+  padding: 0.71em 0.95em;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+/* 언어선택 버튼 */
+.select-lang {
+  -webkit-appearance: none;  /* 네이티브 외형 감추기 */
+  -moz-appearance: none;
+  appearance: none;
+  background: url(./../../images/global.png) no-repeat 10% 50%,
+  url(./../../images/arrow-down.png) no-repeat 95% 50%;  /* 화살표 모양의 이미지 */ 
+  text-align: center;
+  border: 1px solid var(--gray-500);
+  border-radius: 2px;
+  color: var(--gray-500);
+}
+
+/* IE 10, 11의 네이티브 화살표 숨기기 */
+.select-lang::-ms-expand { 
+  display: none;
+}
+
+.select-lang-mobile {
+  width: 113px;
+  height: 30px;
+}
+
+.select-lang-desktop {
+  width: 113px;
+  height: 40px;
+}
