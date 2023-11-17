@@ -1,0 +1,86 @@
+/* 푸터 */
+.footer {
+  background: var(--black);
+  padding: 2.81em 1.56em;
+  color: white;
+}
+
+@media (min-width: 678px) {
+  .footer {
+    padding: 10vw 10vw;
+  }
+}
+
+.footer-inner {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* 문의전화 */
+.footer-wrapper1 {
+  color: var(--gray-200);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5; /* 30px */
+  letter-spacing: -0.01px;
+  margin-bottom: 1.3em;
+}
+
+@media (min-width: 678px) {
+  .footer-wrapper1 {
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 5px;
+  }
+}
+
+/* 안내 */
+.footer-wrapper2 {
+  width: 100%;
+
+  & .guide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 0.625em;
+    margin-bottom: 3.19em;
+  }
+
+  & .guide li {
+    color: var(--gray-300);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.007px;
+  }
+}
+
+@media (min-width: 678px) { 
+  .footer-wrapper2 .guide {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 0.625em;
+    margin-bottom: 3.19em;
+  }
+}
+
+/* 언어 선택 */
+.footer-wrapper3 {
+  margin-bottom: 30px;
+}
+
+/* 회사 정보 */
+.address {
+  display: flex;
+  flex-flow: column nowrap;
+
+  & span {
+    color: var(--gray-400);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.007px;
+  }
+}
