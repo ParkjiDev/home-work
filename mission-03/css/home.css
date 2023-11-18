@@ -1,5 +1,4 @@
 .home {
-  /* background: url('/mission-03/images/background.png') no-repeat 50% 0; */
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url('/mission-03/images/background.png') no-repeat, var(--black) 50%;
   background-size: contain;
 }
