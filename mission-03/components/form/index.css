@@ -75,6 +75,12 @@
   }
 }
 
+.signup-button:focus{
+  outline: 0;
+  z-index: 1;
+  outline: 3px solid var(--green-400);
+}
+
 /* is--invalid 상태(데스크탑) */
 .input-email-wrapper-desktop.is--invalid {
   & .input-email-desktop {
@@ -152,7 +158,6 @@
 
   & .input-email-mobile {
     color: var(--gray-800);
-    border: 3px solid var(--red-500);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -172,6 +177,10 @@
     line-height: 1.5;
     letter-spacing: -0.007px;
   }
+  
+  & .input-email-mobile {
+    border: 3px solid var(--red-500);
+  }
 }
 
 /* disabled 상태(모바일) */
@@ -179,6 +188,7 @@
   background: var(--gray-500);
 }
 
+/* 다크모드 input 배경색 변경 */
 @media (prefers-color-scheme: dark) {
   .input-email-desktop, .input-email-mobile {
     background: var(--gray-800);
