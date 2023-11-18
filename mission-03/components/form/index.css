@@ -152,6 +152,7 @@
 
   & .input-email-mobile {
     color: var(--gray-800);
+    border: 3px solid var(--red-500);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
