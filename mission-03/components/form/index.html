@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form 컴포넌트</title>
+    <link
+      href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./../../css/style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="input-email-wrapper-desktop">
+        <label for="userEmail" class="email-label-desktop">이메일 주소</label>
+        <input
+          type="email"
+          class="input-email-desktop"
+          placeholder="이메일 주소"
+        />
+        <button class="signup-button signup-button-desktop" type="submit">
+          <span>30일 무료 이용</span>
+          <svg
+            class="arrow"
+            width="23"
+            height="16"
+            viewBox="0 0 23 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              id="Arrow (Stroke)"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M15.8431 0.928941L22.2071 7.2929C22.5976 7.68343 22.5976 8.31659 22.2071 8.70712L15.8431 15.0711C15.4526 15.4616 14.8195 15.4616 14.4289 15.0711C14.0384 14.6806 14.0384 14.0474 14.4289 13.6569L19.0858 9.00001H1.5C0.947715 9.00001 0.5 8.55229 0.5 8.00001C0.5 7.44772 0.947715 7.00001 1.5 7.00001H19.0858L14.4289 2.34315C14.0384 1.95263 14.0384 1.31947 14.4289 0.928941C14.8195 0.538416 15.4526 0.538416 15.8431 0.928941Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+        <span class="input-email-span">정확한 이메일 주소를 입력하세요.</span>
+      </div>
+      <div class="input-email-wrapper-desktop is--focus">
+        <label for="userEmail" class="email-label-desktop">이메일 주소</label>
+        <input
+          type="email"
+          id="userEmail"
+          class="input-email-desktop"
+          placeholder="이메일 주소"
+        />
+        <button class="signup-button signup-button-desktop" type="submit">
+          <span>30일 무료 이용</span>
+          <svg
+            class="arrow"
+            width="23"
+            height="16"
+            viewBox="0 0 23 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              id="Arrow (Stroke)"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M15.8431 0.928941L22.2071 7.2929C22.5976 7.68343 22.5976 8.31659 22.2071 8.70712L15.8431 15.0711C15.4526 15.4616 14.8195 15.4616 14.4289 15.0711C14.0384 14.6806 14.0384 14.0474 14.4289 13.6569L19.0858 9.00001H1.5C0.947715 9.00001 0.5 8.55229 0.5 8.00001C0.5 7.44772 0.947715 7.00001 1.5 7.00001H19.0858L14.4289 2.34315C14.0384 1.95263 14.0384 1.31947 14.4289 0.928941C14.8195 0.538416 15.4526 0.538416 15.8431 0.928941Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+        <span class="input-email-span">정확한 이메일 주소를 입력하세요.</span>
+      </div>
+      <div class="input-email-wrapper-desktop is--invalid">
+        <label for="userEmail" class="email-label-desktop">이메일 주소</label>
+        <input
+          type="email"
+          class="input-email-desktop"
+          placeholder="이메일 주소"
+        />
+        <button class="signup-button signup-button-desktop" type="submit">
+          <span>30일 무료 이용</span>
+          <svg
+            class="arrow"
+            width="23"
+            height="16"
+            viewBox="0 0 23 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              id="Arrow (Stroke)"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M15.8431 0.928941L22.2071 7.2929C22.5976 7.68343 22.5976 8.31659 22.2071 8.70712L15.8431 15.0711C15.4526 15.4616 14.8195 15.4616 14.4289 15.0711C14.0384 14.6806 14.0384 14.0474 14.4289 13.6569L19.0858 9.00001H1.5C0.947715 9.00001 0.5 8.55229 0.5 8.00001C0.5 7.44772 0.947715 7.00001 1.5 7.00001H19.0858L14.4289 2.34315C14.0384 1.95263 14.0384 1.31947 14.4289 0.928941C14.8195 0.538416 15.4526 0.538416 15.8431 0.928941Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+        <span class="input-email-span">정확한 이메일 주소를 입력하세요.</span>
+      </div>
+      <div class="input-email-wrapper-desktop">
+        <label for="userEmail" class="email-label-desktop">이메일 주소</label>
+        <input
+          type="email"
+          class="input-email-desktop"
+          placeholder="이메일 주소"
+        />
+        <button
+          class="signup-button signup-button-desktop"
+          type="submit"
+          disabled
+        >
+          <span>30일 무료 이용</span>
+          <svg
+            class="arrow"
+            width="23"
+            height="16"
+            viewBox="0 0 23 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              id="Arrow (Stroke)"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M15.8431 0.928941L22.2071 7.2929C22.5976 7.68343 22.5976 8.31659 22.2071 8.70712L15.8431 15.0711C15.4526 15.4616 14.8195 15.4616 14.4289 15.0711C14.0384 14.6806 14.0384 14.0474 14.4289 13.6569L19.0858 9.00001H1.5C0.947715 9.00001 0.5 8.55229 0.5 8.00001C0.5 7.44772 0.947715 7.00001 1.5 7.00001H19.0858L14.4289 2.34315C14.0384 1.95263 14.0384 1.31947 14.4289 0.928941C14.8195 0.538416 15.4526 0.538416 15.8431 0.928941Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+        <span class="input-email-span">정확한 이메일 주소를 입력하세요.</span>
+      </div>
+      <div class="input-email-wrapper-mobile">
+        <label for="userEmail" class="email-label-mobile">이메일 주소</label>
+        <input
+          type="email"
+          class="input-email-mobile"
+          placeholder="이메일 주소"
+        />
+        <span class="input-email-span">정확한 이메일 주소를 입력하세요.</span>
+        <button class="signup-button signup-button-mobile" type="submit">
+          <span>30일 무료 이용</span>
+          <svg
+            class="arrow"
+            width="23"
+            height="16"
+            viewBox="0 0 23 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              id="Arrow (Stroke)"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M15.8431 0.928941L22.2071 7.2929C22.5976 7.68343 22.5976 8.31659 22.2071 8.70712L15.8431 15.0711C15.4526 15.4616 14.8195 15.4616 14.4289 15.0711C14.0384 14.6806 14.0384 14.0474 14.4289 13.6569L19.0858 9.00001H1.5C0.947715 9.00001 0.5 8.55229 0.5 8.00001C0.5 7.44772 0.947715 7.00001 1.5 7.00001H19.0858L14.4289 2.34315C14.0384 1.95263 14.0384 1.31947 14.4289 0.928941C14.8195 0.538416 15.4526 0.538416 15.8431 0.928941Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="input-email-wrapper-mobile is--focus">
+        <label for="userEmail" class="email-label-mobile">이메일 주소</label>
+        <input
+          type="email"
+          class="input-email-mobile"
+          placeholder="이메일 주소"
+        />
+        <span class="input-email-span">정확한 이메일 주소를 입력하세요.</span>
+        <button class="signup-button signup-button-mobile" type="submit">
+          <span>30일 무료 이용</span>
+          <svg
+            class="arrow"
+            width="23"
+            height="16"
+            viewBox="0 0 23 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              id="Arrow (Stroke)"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M15.8431 0.928941L22.2071 7.2929C22.5976 7.68343 22.5976 8.31659 22.2071 8.70712L15.8431 15.0711C15.4526 15.4616 14.8195 15.4616 14.4289 15.0711C14.0384 14.6806 14.0384 14.0474 14.4289 13.6569L19.0858 9.00001H1.5C0.947715 9.00001 0.5 8.55229 0.5 8.00001C0.5 7.44772 0.947715 7.00001 1.5 7.00001H19.0858L14.4289 2.34315C14.0384 1.95263 14.0384 1.31947 14.4289 0.928941C14.8195 0.538416 15.4526 0.538416 15.8431 0.928941Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="input-email-wrapper-mobile is--invalid">
+        <label for="userEmail" class="email-label-mobile">이메일 주소</label>
+        <input
+          type="email"
+          class="input-email-mobile"
+          placeholder="이메일 주소"
+        />
+        <span class="input-email-span">정확한 이메일 주소를 입력하세요.</span>
+        <button class="signup-button signup-button-mobile" type="submit">
+          <span>30일 무료 이용</span>
+          <svg
+            class="arrow"
+            width="23"
+            height="16"
+            viewBox="0 0 23 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              id="Arrow (Stroke)"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M15.8431 0.928941L22.2071 7.2929C22.5976 7.68343 22.5976 8.31659 22.2071 8.70712L15.8431 15.0711C15.4526 15.4616 14.8195 15.4616 14.4289 15.0711C14.0384 14.6806 14.0384 14.0474 14.4289 13.6569L19.0858 9.00001H1.5C0.947715 9.00001 0.5 8.55229 0.5 8.00001C0.5 7.44772 0.947715 7.00001 1.5 7.00001H19.0858L14.4289 2.34315C14.0384 1.95263 14.0384 1.31947 14.4289 0.928941C14.8195 0.538416 15.4526 0.538416 15.8431 0.928941Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="input-email-wrapper-mobile">
+        <label for="userEmail" class="email-label-mobile">이메일 주소</label>
+        <input
+          type="email"
+          class="input-email-mobile"
+          placeholder="이메일 주소"
+        />
+        <span class="input-email-span">정확한 이메일 주소를 입력하세요.</span>
+        <button
+          class="signup-button signup-button-mobile"
+          type="submit"
+          disabled
+        >
+          <span>30일 무료 이용</span>
+          <svg
+            class="arrow"
+            width="23"
+            height="16"
+            viewBox="0 0 23 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              id="Arrow (Stroke)"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M15.8431 0.928941L22.2071 7.2929C22.5976 7.68343 22.5976 8.31659 22.2071 8.70712L15.8431 15.0711C15.4526 15.4616 14.8195 15.4616 14.4289 15.0711C14.0384 14.6806 14.0384 14.0474 14.4289 13.6569L19.0858 9.00001H1.5C0.947715 9.00001 0.5 8.55229 0.5 8.00001C0.5 7.44772 0.947715 7.00001 1.5 7.00001H19.0858L14.4289 2.34315C14.0384 1.95263 14.0384 1.31947 14.4289 0.928941C14.8195 0.538416 15.4526 0.538416 15.8431 0.928941Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

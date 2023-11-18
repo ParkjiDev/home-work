@@ -1,0 +1,180 @@
+.form-container {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 3rem;
+  padding: 4rem;
+  background: black;
+}
+
+/* 데스크탑용 이메일 입력 폼 */
+.input-email-desktop {
+  padding-left: 20px;
+  width: 350px;
+  height: 60px;
+  transform: translateX(5px);
+  color: var(--gray-800);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.008px;
+  grid-area: input;
+}
+
+.input-email-wrapper-desktop .signup-button-desktop {
+  grid-area: button;
+}
+
+.input-email-wrapper-desktop {
+  position: relative;
+  display: grid;
+  grid-template-areas: "input button" "span span";
+  width: 550px;
+}
+
+.input-email-wrapper-desktop .input-email-span {
+  display: block;
+  grid-area: span;
+}
+
+.email-label-desktop {
+  display: none;;
+}
+
+.input-email-wrapper-desktop .input-email-span {
+  display: none;
+}
+
+/* is--focus or is--invalid 상태일 때 placeholder, label, input 스타일(데스크탑) */
+.input-email-wrapper-desktop.is--focus, .input-email-wrapper-desktop.is--invalid {
+  & input[type="email"]::placeholder {
+    color: transparent;
+  }
+  & .email-label-desktop{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 28px;
+    z-index: 1;
+    color: var(--red-500);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.006px;
+  }
+
+  & .input-email-desktop {
+    padding-top: 20px;
+    color: var(--gray-800);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.008px;
+  }
+}
+
+/* is--invalid 상태(데스크탑) */
+.input-email-wrapper-desktop.is--invalid {
+  & .input-email-desktop {
+    border-bottom: 3px solid var(--red-500);
+  }
+
+  & .input-email-span {
+    display: block;
+    margin-top: 3px;
+    margin-left: 20px;
+    color: var(--red-500);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.007px;
+  }
+}
+
+/* disabled 상태(데스크탑) */
+.signup-button-desktop:disabled {
+  background: var(--gray-500);
+}
+
+
+
+/* 모바일용 이메일 입력 폼 */
+.email-label-mobile, .input-email-span{
+  color: red;
+}
+.input-email-wrapper-mobile {
+  width: 251px;
+}
+
+.email-label-mobile {
+  display: none;
+}
+
+.input-email-wrapper-mobile {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.input-email-mobile {
+  width: 245px;
+  height: 40px;
+  border: 0;
+  border-radius: 30px;
+  padding: 10px 20px 9px 20px;
+}
+
+.input-email-wrapper-mobile .input-email-span {
+  display: none;
+}
+
+.input-email-wrapper-mobile .signup-button-mobile {
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+/* is--focus or is--invalid 상태일 때 placeholder, label, input 스타일(모바일) */
+.input-email-wrapper-mobile.is--focus, .input-email-wrapper-mobile.is--invalid {
+  & input[type="email"]::placeholder {
+    color: transparent;
+  }
+  & .email-label-mobile{
+    display: block;
+    padding-left: 16px;
+    padding-bottom: 5px;
+    color: var(--red-500);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.006px;
+  }
+
+  & .input-email-mobile {
+    color: var(--gray-800);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.008px;
+  }
+}
+
+/* is--invalid 상태(모바일) */
+.input-email-wrapper-mobile.is--invalid {
+  & .input-email-span {
+    display: block;
+    padding-left: 16px;
+    color: var(--red-500);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.007px;
+  }
+}
+
+/* disabled 상태(모바일) */
+.signup-button-mobile:disabled {
+  background: var(--gray-500);
+}
+
