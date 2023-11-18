@@ -5,7 +5,7 @@
   color: white;
 }
 
-@media (min-width: 678px) {
+@media (min-width: 768px) {
   .footer {
     padding: 10vw 10vw;
   }
@@ -28,7 +28,7 @@
   margin-bottom: 1.3em;
 }
 
-@media (min-width: 678px) {
+@media (min-width: 768px) {
   .footer-wrapper1 {
     display: flex;
     flex-flow: row nowrap;
@@ -56,7 +56,7 @@
   }
 }
 
-@media (min-width: 678px) { 
+@media (min-width: 768px) { 
   .footer-wrapper2 .guide {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
