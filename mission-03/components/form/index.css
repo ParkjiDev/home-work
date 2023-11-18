@@ -178,3 +178,8 @@
   background: var(--gray-500);
 }
 
+@media (prefers-color-scheme: dark) {
+  .input-email-desktop, .input-email-mobile {
+    background: var(--gray-800);
+  }
+}
