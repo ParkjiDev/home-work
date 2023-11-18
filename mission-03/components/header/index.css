@@ -8,11 +8,6 @@
   align-items: center;
 }
 
-.header [class*="header-button-wrapper"] {
-  
-}
-
-
 @media (max-width: 768px) {
   .header-button-wrapper-desktop {
     display: none;
