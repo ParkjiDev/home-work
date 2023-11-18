@@ -3,11 +3,12 @@
   background: var(--black);
   padding: 2.81em 1.56em;
   color: white;
+  border-top: 4px solid var(--gray-800);
 }
 
 @media (min-width: 768px) {
   .footer {
-    padding: 10vw 10vw;
+    padding: 2.81em 10vw;
   }
 }
 
